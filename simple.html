@@ -125,7 +125,9 @@
         // Getting and setting a param value
         // ---------------------------------
 
-        //
+        //Here, we get and set some ROS parameters (params).
+        //We use maxVelX.set(0.8) to set the max velocity param.
+        //In order to get a param, we need to make a callback function to define what to do with the param.
         ros.getParams(function (params) {
             console.log(params);
         });
