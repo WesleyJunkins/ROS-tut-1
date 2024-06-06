@@ -2,6 +2,8 @@ This is the first tutorial in communicating using ROS through a web browser.
 The package, roslib, should be installed using npm install roslib.
 This program communicates using ROS over the rosbridge.
 
+Followed along with this tutorial: https://wiki.ros.org/roslibjs/Tutorials/BasicRosFunctionality
+
 <><><>
 General overview of the ROS construct:
 - We have a DDS (Data Distribution Service), which is a way of code communicating with each other through a pipeline.
@@ -21,6 +23,7 @@ General overview of the ROS construct:
 - When you want to collect data from a robot, you will usually create a bag file, which subscribes to multiple topics and records the data as it comes in. These bag files can be played back later and the messages
   in them will be published over the same corresponding topic names.
 - ROS code is organized in packages. These packages will contain all the code for a particular robot functionality. 
+<><><>
 
 -------
 -------
